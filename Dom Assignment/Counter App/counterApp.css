@@ -1,0 +1,38 @@
+.counter-wrapper{
+    border:2px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:580px;
+    height:300px;
+    background-color: black;
+    border: none;
+    box-shadow: 4px 3px whitesmoke;
+}
+body{
+    height:700px;
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(green, yellow);
+}
+.button-wrapper{
+    display:flex;
+}
+#inp{
+    text-align: center;
+}
+button{
+    padding:5px;
+    background-image: linear-gradient(green, yellow);
+    color:white;
+    border: none;
+    font-size: 24px;
+    font-weight: bolder;
+}
+h1{
+    color: white;
+}
+

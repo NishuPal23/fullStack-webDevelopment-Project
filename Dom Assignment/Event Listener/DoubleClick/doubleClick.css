@@ -1,0 +1,27 @@
+#para-wrapper{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#para{
+    border:2px solid black;
+    padding:30px;
+    text-align: center;
+    font-size: 20px;
+    border-radius:9%;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(159, 110, 214),rgb(32, 2, 49));
+    font-weight: bolder;
+}
+h1{
+    text-align: center;
+}
+#content{
+    
+    visibility : hidden;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}

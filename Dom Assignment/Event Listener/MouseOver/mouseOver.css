@@ -1,0 +1,21 @@
+#outer{
+    border-radius: 7%;
+    width:400px;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+#inner{
+    border-radius: 7%;
+    width:200px;
+    height:200px;
+    background-color: red;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:700px;
+}
