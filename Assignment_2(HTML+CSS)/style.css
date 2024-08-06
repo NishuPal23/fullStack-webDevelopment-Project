@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+
+}
+body{
+    background-color: whitesmoke;
+}
+.header{
+    margin:25px;
+}
+nav{
+    
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(140, 81, 227);
+    font-size:18px;
+    font-weight:500;
+}
+ul li a:hover{
+    text-decoration: underline;
+    color:rgb(55, 3, 134);
+    font-size:18px;
+    font-weight: 900;
+}
+section{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 25px;
+}
+.write h1{
+    font-size:53px;
+    font-weight: 900;
+    color:rgb(55, 3, 134);
+    font-size:53px;
+    font-weight: 900;
+}
+
+.write h1 span{
+    color:rgb(140, 81, 227);
+} 
+.write p{
+    font-size:20px;
+    font-weight: 900;
+    margin:6px 0px;
+    color:rgb(140, 81, 227);
+}
+.large-button{
+    background-color: rgb(140, 81, 227);
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:8px 12px;
+    font-size:16px;
+    font-weight: 600;
+
+}
+.large-button:hover{
+    background-color: rgb(55, 3, 134);
+    color:white;
+    
+    font-weight: 900;
+
+}
+.button{
+    
+    margin:35px 0px;
+}
+.small-button{
+    background-color: rgb(140, 81, 227);
+    color:white;
+    border:none;
+    border-radius:5px;
+    padding:8px 10px;
+    font-size:16px;
+    font-weight: 600;
+
+}
+.small-button:hover{
+    background-color:rgb(55, 3, 134); 
+    color:white;
+    
+    font-weight: 900;
+
+}
+
+
