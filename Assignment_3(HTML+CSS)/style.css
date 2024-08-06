@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+/* font-family: 'IBM Plex Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Poppins', sans-serif;*/
+} 
+header{
+    /* margin:5px 12px; */
+    
+}
+body{
+    background-image: url("https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_03(HTML+CSS)/assets/bg.png?raw=true");
+
+}
+nav{
+    
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+.list{
+    
+    display:flex;
+    gap:72px;
+    margin:7px 30px;
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap:32px;
+}
+ul li a{
+    text-decoration:none;
+    font-weight: 700;
+    color:white;
+}
+ul li a:hover{
+    text-decoration:underline;
+    font-weight: 900;
+    color:rgb(168, 19, 227);
+}
+.nav-button{
+    
+    margin:7px 30px;
+}
+.img-logo{
+    height:30px;
+}
+.small-button{
+    background-color: rgb(168, 19, 227);
+    color:white;
+    font-weight:600;
+    font-size:13px;
+    padding:8px 10px;
+    border-radius:5px;
+
+}
+.small-button:hover{
+    background-color: white;
+    color:black;
+    font-weight:900;
+    
+
+}
+.main-section h1{
+    text-align: center;
+    font-size:84px;
+    font-weight:900;
+}
+.main-section p{
+    text-align: center;
+    font-size:26px;
+    font-weight:900;
+}
+.main-button{
+    
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin:5px 0px;
+}
+.large-button{
+    background-color: rgb(168, 19, 227);
+    color:white;
+    font-weight:600;
+    font-size:20px;
+    padding:14px 28px;
+    border-radius:5px;
+    border:none;
+}
+.large-button:hover{
+    background-color: white;
+    color:black;
+    font-weight:900;
+}
+.section{
+    
+}
+.main-section{
+    
+    margin:125px 0px;
+}
