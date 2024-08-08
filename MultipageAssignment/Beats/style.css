@@ -1,0 +1,269 @@
+*{
+    margin:0px;
+    padding:0px;
+    color:white;
+    /* background-color: black; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+body{
+    background-color: black;
+}
+ .header{
+   /* border:2px solid red; */
+    justify-content: space-between;
+
+}
+nav{
+    /* border:2px solid green; */
+    display:flex;
+    justify-content:space-around;
+    background-color: black;
+
+}
+ul{
+    display:flex;
+    list-style:none;
+    gap:23px;
+}
+.ear{
+    display:flex;
+    justify-content: center;
+    gap:43px
+}
+.box1{
+    height:150px;
+    width:300px;
+    /* border:2px solid red; */
+    margin:12px 0px;
+    color:white;
+
+}
+.logo2{
+    height:250px;
+    /* border:2px solid red; */
+}
+.over{
+    /* border:2px solid red; */
+    margin:12px 0px;
+    color:white;
+}
+.beats{
+    color:white;
+    font-size: 43px;
+} 
+.button2{
+    background-color: rgb(36, 36, 37);
+    color:white;
+    border-radius: 5px;
+    padding:6px 10px;
+    font-weight: 800;
+
+} 
+.section1{
+    /* border: 2px solid red; */
+    background-color: black;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size:23px;
+    color:white;
+}
+.button1{
+    background-color: rgb(36, 36, 37);
+    color:white;
+    border-radius: 5px;
+    padding:6px 17px;
+    font-weight: 800;
+
+} 
+.section2{
+    /* border:2px solid red; */
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:153px;
+    margin:12px 0px;
+}
+.section3{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+
+}
+.specslogo{
+    width:250px;
+}
+.icon{
+    display:flex;
+    gap:53px
+}
+.h1{
+    color:white;
+}
+.bluetooth{
+    /* border:2px solid red; */
+    position:relative;
+    right:11px;
+}
+.battery{
+    /* border:2px solid red; */
+    position:relative;
+    right:23px;
+    margin:15px 0px;
+}
+.charger{
+    /* border:2px solid red; */
+    position:relative;
+    right:23px;
+    margin:15px 0x;
+}
+.microphone{
+    /* border:2px solid red; */
+    position:relative;
+    right:11px;
+    margin:15px 0px;
+}
+.section4{
+    /* border:2px solid red; */
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    margin:23px 0px;
+}
+.case{
+    /* border:2px solid red; */
+    display:flex;
+    gap:33px;
+    margin:37px 0px;
+}
+.casepara{
+    height:150px;
+    width:200px;
+    /* border:2px solid red; */
+    margin:95px 0px;
+}
+.para{
+    font-weight: 500;
+    color:white;
+}
+.button3{
+    background-color: rgb(36, 36, 37);
+    color:white;
+    border-radius: 5px;
+    padding:6px 17px;
+    font-weight: 800;
+    margin:10px 0px;
+
+}
+.immense{
+    /* border:2px solid red; */
+    display:flex;
+    width:890px;
+    justify-content: center;
+    align-items:center;
+    gap:33px;
+    background-color: rgb(36, 36, 37);
+}
+.button4{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    padding:6px 17px;
+    font-weight: 800;
+    margin:10px 0px;
+
+}
+.immenseh1{
+    color:white;
+}
+.immenseh3{
+    color:white;
+}
+.section5{
+    /* border:2px solid red; */
+    background-color: black;
+
+}
+.choose{
+    text-align: center;
+    
+}
+.manyimg{
+    display:grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin:0px 550px;
+}
+.box{
+    /* border:2px solid red; */
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+    margin:16px 0px;
+    cursor: pointer;
+    
+}
+.img1{
+    width: 75px;
+   height: 100px;
+   position: absolute;
+   z-index: 100;
+   top: -40px;
+   left: 28px;
+}
+.choosepara{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content:space-between;
+    margin:75px 0px;
+}
+
+.p1{
+    font-size:16px;
+    color:white;
+    
+}
+.card{
+    display:flex;
+    justify-content: center;
+    margin :12px 0px;
+}
+.section6{
+    background-color: black;
+    display:flex;
+    justify-content:space-around;
+    margin:12px 0px;
+
+}
+.twolist{
+    display:flex;
+    gap:102px;
+
+}
+.product{
+    display:block;
+}
+.button5{
+    background-color: #181a1b;
+    color:white;
+    border-radius: 5px;
+    padding:6px 23px;
+    font-weight: 800;
+    margin:10px 0px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.second{
+    display:flex;
+}
