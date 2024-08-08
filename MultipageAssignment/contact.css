@@ -1,0 +1,77 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'PT Serif', serif;
+    
+
+}
+body{
+    background-color:#d9f0f6; 
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    /* border:2px solid black; */
+    align-items: center;
+    margin:15px 74px;
+}
+ul{
+    list-style:none;
+    display:flex;
+    gap:34px;
+}
+ul li a{
+    color:black;
+    text-decoration:none;
+    font-weight:700;
+}
+ul li a:hover{
+    color:green;
+    text-decoration:underline;
+    font-weight:700;
+}
+main{
+    /* border:2px solid black; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:120px 0px;
+    
+}
+legend{
+    font-size: 30px;
+    color:black;
+    font-weight: 900;
+    text-align: center;
+}
+form{
+    border:2px solid black;
+    border-radius:7px;
+    box-shadow: 0 0 10px black;
+}
+.name,.email,.message{
+    font-size:21px;
+    font-weight:800;
+    padding:5px 10px;
+
+}
+.Name,.Email,.Message{
+    /* border:2px solid black; */
+    /* padding:0px 25px; */
+    margin:0px 10px;
+    border:transparent;
+}
+button{
+    background-color: #20bc7e;
+    color:white;
+    padding:10px 160px;
+    border-radius:5px;
+    font-size:24px;
+    font-weight: 800;
+    border:none;
+    cursor:pointer;
+    margin:6px 10px;
+}
+
