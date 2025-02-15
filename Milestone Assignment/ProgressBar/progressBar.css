@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: #4caf50;
+    z-index: 100;
+  }
+  
+  .content {
+    padding: 20px;
+    height: 2000px; /* Adjust this to make the page long enough for scrolling */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    margin: 20px 0;
+    text-align: justify;
+  }
+  

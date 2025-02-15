@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Move the Image</title>
+  <style>
+    #container {
+      position: relative;
+      width: 800px;
+      height: 600px;
+      border: 2px solid black;
+      overflow: hidden;
+    }
+
+    #image {
+      position: absolute;
+      top: 100px;
+      left: 100px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Use Arrow Keys to Move the Image</h1>
+  <div id="container">
+    <img id="image" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80" alt="Movable Image">
+  </div>
+
+  <script>
+    const image = document.getElementById('image');
+    let posX = 100;
+    let posY = 100;
+    const step = 10;
+
+    window.addEventListener('keydown', (event) => {
+      switch(event.keyCode) {
+        case 37: // Left arrow
+          posX -= step;
+          break;
+        case 38: // Up arrow
+          posY -= step;
+          break;
+        case 39: // Right arrow
+          posX += step;
+          break;
+        case 40: // Down arrow
+          posY += step;
+          break;
+      }
+      
+      // Ensure the image stays within the container
+      console.log(posX)
+      console.log(posY)
+      posX = Math.max(0, Math.min(posX, container.offsetWidth - image.offsetWidth));
+      console.log(posX)
+      console.log("container",container.offsetWidth);
+      console.log("image",image.offsetWidth);
+      posY = Math.max(0, Math.min(posY, container.offsetHeight - image.offsetHeight));
+      console.log(posY)
+      
+      // Update image position
+      image.style.left = posX + 'px';
+      image.style.top = posY + 'px';
+      
+    });
+  </script>
+</body>
+</html>
